@@ -1,0 +1,12 @@
+syntax = "proto3";
+package strideynet.jamboncoin.jamboncoin;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/strideynet/jambon-coin/x/jamboncoin/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
+
